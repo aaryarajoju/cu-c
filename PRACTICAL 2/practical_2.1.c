@@ -12,7 +12,7 @@ int main(){
     scanf("%d %f %f", &amountRam, &rateRam, &timeRam);
     printf("Enter Mohan's loan amount, rate of interest and time: ");
     scanf("%d %f %f", &amountMohan, &rateMohan, &timeMohan);
-    printf("Enter SOhan's loan amount, rate of interest and time: ");
+    printf("Enter Sohan's loan amount, rate of interest and time: ");
     scanf("%d %f %f", &amountSohan, &rateSohan, &timeSohan);
 
     interestRam = (amountRam*rateRam*timeRam)/100;
