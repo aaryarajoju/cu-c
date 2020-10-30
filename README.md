@@ -19,5 +19,5 @@
   <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%202/practical_2.2.c"><b>2.2</b></a> : Write a program to input two integers from user by using single scanf. Compute and display the value for a& b, a| b, a f b. <br>
   <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%202/practical_2.3.c"><b>2.3</b></a> : Write a C program to find out year in which Mr. Kavi was born <br>
   <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%202/practical_2.4.c"><b>2.4</b></a> : If last day of mth month of the year is Friday then find out nth day(1<=n<=31) of the same month <br>
-  <li><a href = https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%202/practical_2.5.c""><b>2.5</b></a> : How many girls are after her rank? Also find whether she is among top 10 students of the class or not?<br>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%202/practical_2.5.c"><b>2.5</b></a> : How many girls are after her rank? Also find whether she is among top 10 students of the class or not?<br>
 </ol>
