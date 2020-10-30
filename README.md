@@ -8,7 +8,7 @@
   <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%201/practical_1.2.c"><b>1.2</b></a> : Write a program to find the total number of smaller cubes obtained <br>
   <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%201/practical_1.3.c"><b>1.3</b></a> : Write a C program to compute the speed of car <br>
   <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%201/practical_1.4.c"><b>1.4</b></a> : How many students are there in the class? <br>
-  <li><a href = ""><b>1.5</b></a> : Write a program to calculate and print the number of days to be taken to complete the work if A and B work together<br>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%201/practical_1.5.c"><b>1.5</b></a> : Write a program to calculate and print the number of days to be taken to complete the work if A and B work together<br>
 </ol>
 
 <br>
