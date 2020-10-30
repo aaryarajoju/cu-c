@@ -20,7 +20,7 @@ int main(){
    printf("Name= %s\n", name);
    printf("Age= %d\n", age);
    printf("Phone Number= %ld\n", phone);
-   printf("Percentage =%.2f\n", percentage);
+   printf("Percentage= %.2f\n", percentage);
 
    return 0;
 }
