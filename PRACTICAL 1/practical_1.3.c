@@ -6,7 +6,7 @@ int main(){
     int distance;
     float timeLostByTrain, speedCar;
     
-    printf("ENter the distance travelled from A to B: ");
+    printf("Enter the distance travelled from A to B: ");
     scanf("%d", &distance);
     
     printf("Enter the amount of time(in mins), lost by the train while stopping at stations: ");
