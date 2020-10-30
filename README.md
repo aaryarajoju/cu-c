@@ -1,6 +1,6 @@
 # programmingLab
 
-<b> PROBLEM-SOLVING WITH PROGRAMMING LAB </b> (20CSP-112) <br> <br>
+<b> PROBLEM-SOLVING WITH PROGRAMMING LAB </b> (20CSP-112) <br> <br> <br>
 
 <b><a href = "https://github.com/aaryarajoju/cu-c/tree/main/PRACTICAL%201">PRACTICAL 1</a> : LEARN HOW TO PERFORM INPUT OUTPUT OPERATIONS USING C</b><br>
 <ol>
