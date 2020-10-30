@@ -24,8 +24,7 @@ int main(){
     printf("Interest paid by Sohan: %f\n", interestSohan);
 
     printf("Maximum interest is paid by - ");
-    interestRam>interestMohan?(interestRam>interestSohan?printf("Ram\n"):
-    printf("Sohan\n")):(interestMohan>interestSohan?printf("Mohan\n"):printf("Sohan\n"));
+    interestRam>interestMohan?(interestRam>interestSohan?printf("Ram\n"):printf("Sohan\n")):(interestMohan>interestSohan?printf("Mohan\n"):printf("Sohan\n"));
 
     return 0;
 }
