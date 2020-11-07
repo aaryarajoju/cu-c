@@ -1,4 +1,4 @@
-// Example : Maximum of Two numbers, using ternary conditions
+// Example : Maximum of Two numbers, using ternary conditional operator
 
 #include <stdio.h>
 
