@@ -1,4 +1,4 @@
-// Example: Checking whether pass or fail, using GOTO
+// Example: Printing whether pass or fail, using GOTO
 
 #include <stdio.h>
 
