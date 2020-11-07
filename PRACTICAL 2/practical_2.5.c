@@ -1,27 +1,21 @@
 //PRACTICAL 2.5
-// this program has ERRORS!!
 
 #include <stdio.h>
 
 int main (){
     int rankOfSavita, numBoysAheadOfSavita, numOfGirlsBehindSavita;
-    int classSize, numOfGirls, numOfBoys;
-    int x, y;
+    float classSize;
+    float numOfGirls, numOfBoys;
+    float x, y;
 
     printf("Enter the Class Size: ");
-    scanf("%d", &classSize);
-
-    printf("%d\n", classSize);
+    scanf("%f", &classSize);
 
     printf("Enter the ratio of number of girls to the number of boys in the class: ");
-    scanf("%d:%d", &x, &y);
-
-    printf("%d %d\n", x, y);
+    scanf("%f:%f", &x, &y);
 
     numOfGirls = (x / (x + y)) * classSize;
     numOfBoys = (y / (x + y)) * classSize;
-
-    printf("%d %d\n", numOfGirls, numOfBoys);
 
     printf("Enter the rank of Savita: ");
     scanf("%d", &rankOfSavita);
@@ -31,7 +25,7 @@ int main (){
     scanf("%d", &numBoysAheadOfSavita);
     printf("\n");
 
-    numOfGirlsBehindSavita = numOfGirls - (rankOfSavita - numBoysAheadOfSavita);
+    numOfGirlsBehindSavita = (int)numOfGirls - (rankOfSavita - numBoysAheadOfSavita);
 
     if (numBoysAheadOfSavita < rankOfSavita) {
         printf("The number of girls behind Savita are: %d\n\n", numOfGirlsBehindSavita);
@@ -41,9 +35,9 @@ int main (){
     }
 
     if (rankOfSavita < 10){
-        printf("Savita is in the top 10");
+        printf("Savita is in the top 10\n\n");
     } else {
-        printf("Savita is not in the top 10");
+        printf("Savita is not in the top 10\n\n");
     }
 
     return 0;
