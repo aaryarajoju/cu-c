@@ -4,9 +4,7 @@
 
 int main (){
     int rankOfSavita, numBoysAheadOfSavita, numOfGirlsBehindSavita;
-    float classSize;
-    float numOfGirls, numOfBoys;
-    float x, y;
+    float classSize, numOfGirls, numOfBoys, x, y;
 
     printf("Enter the Class Size: ");
     scanf("%f", &classSize);
@@ -28,16 +26,16 @@ int main (){
     numOfGirlsBehindSavita = (int)numOfGirls - (rankOfSavita - numBoysAheadOfSavita);
 
     if (numBoysAheadOfSavita < rankOfSavita) {
-        printf("The number of girls behind Savita are: %d\n\n", numOfGirlsBehindSavita);
+        printf("THE NUMBER OF GIRLS BEHIND SAVITA ARE: %d\n\n", numOfGirlsBehindSavita);
     } else {
         printf("INVALID\n\n");
         goto again;
     }
 
-    if (rankOfSavita < 10){
-        printf("Savita is in the top 10\n\n");
+    if (rankOfSavita <= 10){
+        printf("SAVITA IS IN THE TOP 10\n\n");
     } else {
-        printf("Savita is not in the top 10\n\n");
+        printf("SAVITA IS NOT IN THE TOP 10\n\n");
     }
 
     return 0;
