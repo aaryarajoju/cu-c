@@ -15,7 +15,7 @@ int main (){
     printf("Select one of the following: \n");
     printf("1) Even or Odd\n");
     printf("2) Positive or Negative\n");
-    printf("3) Square");
+    printf("3) Square\n");
     printf("4) Square Root\n");
     printf("5) End\n");
     scanf("%d", &input);
