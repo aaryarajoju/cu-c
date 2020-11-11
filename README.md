@@ -14,6 +14,12 @@
 <br>
   
 <b><a href = "https://github.com/aaryarajoju/cu-c/tree/main/PRACTICAL%202">PRACTICAL 2</a> : LEARN HOW TO OPERATORS AND APPLY DECISION MAKING IN C USING IF-ELSE STATEMENTS, HOW TO USE BITWISE, CONDITIONAL, ARITHMETIC OPERATORS</b><br>
+<ul>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%202/maximumOfTwoNum.c">Maximum of Two Numbers</a> - WAP to find the maximum among two numbers using ternary operators</li>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%202/maximumOfThreeNum.c">Maximum of Three Numbers</a> - WAP to find the maximum among two numbers using ternary operators</li>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%202/maximumOfFourNum.c">Maximum of Four Numbers</a> - WAP to find the maximum among two numbers using ternary operators</li>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%202/maximumOfFiveNum.c">Maximum of Five Numbers</a> - WAP to find the maximum among two numbers using ternary operators</li>
+</ul>
 <ol>
   <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%202/practical_2.1.c"><b>2.1</b></a> : Calculate simple interest they will pay and find who will pay the most using ternary operator? <br>
   <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%202/practical_2.2.c"><b>2.2</b></a> : Write a program to input two integers from user by using single scanf. Compute and display the value for a& b, a| b, a f b. <br>
