@@ -8,7 +8,6 @@ int main (){
     float percBoys, percGirls;
     int diff;
 
-
     //user-input for class size
     printf("Enter the Class Size: ");
     scanf("%f", &classSize);
@@ -33,9 +32,9 @@ int main (){
     //printing the conclusion
     if (diff > -5 && diff < 5){
         printf("Equal Oppotunities of education are there for both boys and girls\n\n");
-    } else if (percBoys > 70){
+    } else if (percBoys >= 70){
         printf("There is gender partiality in education\n\n");
-    } else if (percGirls > 70){
+    } else if (percGirls >= 70){
         printf("Girls are dominating in education\n\n");
     } else {
         printf("There is no conclusion drawn from the given stats\n\n");
