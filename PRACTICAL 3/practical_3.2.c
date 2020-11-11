@@ -52,8 +52,7 @@ int main (){
         goto end;
         break;
     }
-    goto end;
-
+    
 
     //even or odd
     evenOrOdd:
