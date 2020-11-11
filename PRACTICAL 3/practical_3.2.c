@@ -6,14 +6,18 @@ int main (){
     //initializing a variable
     int num;
     int input;
+    int squareNum;
+    int rootNum;
+
 
     //asking the user what they want to do
     printf("Select one of the following: \n");
-    printf("1) Even or Odd\
-            2) Positive or Negative\
-            3) Square\
-            4) Square Root\
-            5) End\n\n");
+    printf("1) Even or Odd\n");
+    printf("2) Positive or Negative\n");
+    printf("3) Square");
+    printf("4) Square Root\n");
+    printf("5) End\n");
+    scanf("%d", &input);
 
     //asking the user for an input number
     printf("Enter a number: ");
@@ -74,17 +78,15 @@ int main (){
 
     //square
     square:
-    int squareNum;
     squareNum = num*num;
-    printf("\nThe square of the number %d is %d", num, squareNum);
+    printf("\nThe square of the number %d is %d\n\n", num, squareNum);
     goto end;
 
 
     //square root
     root:
-    int rootNum;
     rootNum = sqrt(num);
-    printf("\nThe square-root of the number %d is %d", num, rootNum);
+    printf("\nThe square-root of the number %d is %d\n\n", num, rootNum);
     goto end;
 
 
