@@ -5,23 +5,23 @@
 int main (){
     
     int num, reverseNum;
-    int remainder, rev, n;
+    int remainder, rev = 0, n;
 
     printf("Enter a number: ");
     scanf("%d", &num);
 
     n = num;
 
-    again:
-    remainder = n % 10;
+    do{
+        remainder = n % 10;
         rev = rev * 10 + remainder;
         n /= 10;
-    
-    if (n > 0){
-        goto again;
-    }
+    }while(n>0);
+
 
     reverseNum = rev;
+
+    printf("%d\n", reverseNum);
 
     if (num == reverseNum){
         printf("The number %d is a palindrome\n\n", num);
