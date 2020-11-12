@@ -6,6 +6,7 @@ int main (){
     
     int num;
     int i = 3;
+    int lcd;
 
     printf("Enter a number: ");
     scanf("%d", &num);
@@ -16,27 +17,20 @@ int main (){
         printf("The number %d is not a prime number\n\n", num);
     } else {
 
-        
+        for (i; i <= num; i++){
+            if (num % i == 0){
+                lcd = i;
+                break;
+            }
+        }
+
+        if (lcd == num){
+            printf("The number %d is prime\n\n", num);
+        } else {
+            printf("The number %d is not a prime number\n\n", num);
+        }
 
     }
 
     return 0;
 }
-
-
-/*
-int isPrime(long n) {
-    if (n==2){
-        return 1;
-    } else if (n%2==0){
-        return 2;
-    } else {
-        for (int i = 3; i < (int)n; i++) {
-            if ((int)n%i==0){
-                return (int)i;
-            }
-        } 
-    }
-    return 1;
-}
-*/
