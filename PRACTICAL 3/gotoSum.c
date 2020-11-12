@@ -11,9 +11,16 @@ int main (){
     printf("Enter a number: ");
     scanf("%d", &num);
 
-    for(i; i<=num; i++){
-        sum = sum + i;
+
+    again:
+
+    sum = sum + i;
+    i++;
+
+    if (i <= num){
+        goto again;
     }
+
 
     printf("The sum of first %d numbers is %d\n\n", num, sum);
 
