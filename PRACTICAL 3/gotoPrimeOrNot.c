@@ -5,7 +5,7 @@
 int main (){
     
     int num;
-    int i = 3;
+    int i = 2;
     int lcd;
 
     printf("Enter a number: ");
@@ -17,13 +17,21 @@ int main (){
         printf("The number %d is not a prime number\n\n", num);
     } else {
 
-        for (i; i <= num; i++){
-            if (num % i == 0){
-                lcd = i;
-                break;
-            }
+
+        again:
+
+        if (num % i == 0){
+            lcd = i;
+            goto print;
         }
 
+        i++;
+        
+        if (i <= num){
+            goto again;
+        }
+
+        print:
         if (lcd == num){
             printf("The number %d is prime\n\n", num);
         } else {
