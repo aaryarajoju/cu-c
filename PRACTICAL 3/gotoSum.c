@@ -6,17 +6,13 @@ int main (){
     
     int num; 
     int sum = 0;
-    int i = 0;
+    int i = 1;
 
     printf("Enter a number: ");
     scanf("%d", &num);
 
-    again:
-    sum = sum + i;
-    i++;
-
-    if (i < num){
-        goto again;
+    for(i; i<=num; i++){
+        sum = sum + i;
     }
 
     printf("The sum of first %d numbers is %d\n\n", num, sum);
