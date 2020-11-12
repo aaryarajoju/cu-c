@@ -4,14 +4,17 @@
 
 int main (){
     
+    //initializing the variables
     int num, reverseNum;
     int remainder, rev = 0, n;
 
+    //asking the user for an input
     printf("Enter a number: ");
     scanf("%d", &num);
 
+    //calculating the reverse of the user input
     n = num;
-    
+
     again:
     remainder = n % 10;
         rev = rev * 10 + remainder;
@@ -23,8 +26,7 @@ int main (){
 
     reverseNum = rev;
 
-    printf("%d\n", reverseNum);
-
+    //checking if the number is a palindrome
     if (num == reverseNum){
         printf("The number %d is a palindrome\n\n", num);
     } else {
