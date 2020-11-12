@@ -11,13 +11,15 @@ int main (){
     scanf("%d", &num);
 
     n = num;
-
-    do{
-        remainder = n % 10;
+    
+    again:
+    remainder = n % 10;
         rev = rev * 10 + remainder;
         n /= 10;
-    }while(n>0);
-
+    
+    if (n > 0){
+        goto again;
+    }
 
     reverseNum = rev;
 
