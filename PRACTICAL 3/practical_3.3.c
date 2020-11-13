@@ -6,6 +6,7 @@ Total money they have initially is Rs. N. After spending money in the market who
 
 int main (){
     
+    //initializing the variables (the names are self-intuitive)
     float initialRatioAmba, initialRatioAambika, initialRatioAmbalika;
     float initialAmba, initialAambika, initialAmbalika;
     float totalMoney;
@@ -14,6 +15,9 @@ int main (){
     float savedRatioAmba, savedRatioAambika, savedRatioAmbalika;
     float savedAmba, savedAambika, savedAmbalika;
     float x, y, z;
+
+
+    //asking the user for user inputs
 
     printf("\nEnter the total amount of money that they had before spending - $");
     scanf("%f", &totalMoney);
@@ -28,26 +32,35 @@ int main (){
     scanf("%f:%f:%f", &savedRatioAmba, &savedRatioAambika, &savedRatioAmbalika); 
 
 
+    //calculating the value of x
     x = totalMoney / (initialAmba + initialAambika + initialAmbalika);
 
+
+    //calculating tha amount of money each of them had, in the beginning
     initialAmba = x * initialRatioAmba;
     initialAambika = x * initialRatioAambika;
     initialAmbalika = x * initialRatioAmbalika;
 
 
+    //checking if it is valid and printing the required result
     if ((spentRatioAmba/spentRatioAmba) != (savedRatioAmba/savedRatioAambika)){
         
+        
+        //finding the values of y and z, by solving the equations, using cross-multiplication method
         y = ((savedRatioAmba * (-initialRatioAambika)) - (savedRatioAambika * (-initialRatioAmba))) / ((spentRatioAmba * savedRatioAambika) - (spentRatioAambika * savedRatioAmba));
         z = ((spentRatioAambika * (-initialRatioAmba)) - (spentRatioAmba * (-initialRatioAambika))) / ((spentRatioAmba * savedRatioAambika) - (spentRatioAambika * savedRatioAmba));
 
+        //calculating the amount of money spent by each of them
         spentAmba = y * spentRatioAmba;
         spentAambika = y * spentRatioAambika;
         spentAmbalika = y * spentRatioAmbalika;
 
+        //calculating the amount of money that was left with each of them
         savedAmba = z * savedRatioAmba;
         savedAambika = z * savedRatioAambika;
         savedAmbalika = z * savedRatioAmbalika;
 
+        //printing the required result
         if ((savedAmba == savedAambika) && (savedAambika ==  savedAmbalika)){
             printf("\nAll three have saved the same amount \n\n");
         } else if ((savedAmba > savedAambika) && (savedAambika == savedAmbalika)){
