@@ -1,4 +1,7 @@
 //PRACTICAL 3.1
+/*In a class of n students the boys to girls ratio is p:q. Find no. boys and girls in the class.
+WAP to find if there is a gender partiality or equality in education*/
+
 #include <stdio.h>
 
 int main (){
