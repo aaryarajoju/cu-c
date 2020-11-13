@@ -6,69 +6,78 @@ Total money they have initially is Rs. N. After spending money in the market who
 
 int main (){
     
-    float initialRatioAmba, initialRatioAmbika, initialRatioAmbalika;
-    float initialAmba, initialAmbika, initialAmbalika;
+    float initialRatioAmba, initialRatioAambika, initialRatioAmbalika;
+    float initialAmba, initialAambika, initialAmbalika;
     float totalMoney;
-    float spentRatioAmba, spentRatioAmbika, spentRatioAmbalika;
-    float spentAmba, spentAmbika, spentAmbalika;
-    float savedRatioAmba, savedRatioAmbika, savedRatioAmbalika;
-    float savedAmba, savedAmbika, savedAmbalika;
+    float spentRatioAmba, spentRatioAambika, spentRatioAmbalika;
+    float spentAmba, spentAambika, spentAmbalika;
+    float savedRatioAmba, savedRatioAambika, savedRatioAmbalika;
+    float savedAmba, savedAambika, savedAmbalika;
     float x, y, z;
 
-    printf("Enter the total amount of money that they had before spending : ");
+    printf("\nEnter the total amount of money that they had before spending - $");
     scanf("%f", &totalMoney);
 
-    printf("Enter the ratio of money that they had (in the format x:y:z) : ");
-    scanf("%f:%f:%f", &initialRatioAmba, &initialRatioAmbika, &initialRatioAmbalika);
+    printf("Enter the ratio of money that they had (in the format x:y:z) - ");
+    scanf("%f:%f:%f", &initialRatioAmba, &initialRatioAambika, &initialRatioAmbalika);
 
-    printf("Enter the ratio of money that they spent (in the format p:q:r) : ");
-    scanf("%f:%f:%f", &spentRatioAmba, &spentRatioAmbika, &spentRatioAmbalika);
+    printf("Enter the ratio of money that they spent (in the format p:q:r) - ");
+    scanf("%f:%f:%f", &spentRatioAmba, &spentRatioAambika, &spentRatioAmbalika);
    
-    printf("Enter the ratio of money that they saved (in the format g:h:i) : ");
-    scanf("%f:%f:%f", &savedRatioAmba, &savedRatioAmbika, &savedRatioAmbalika); 
+    printf("Enter the ratio of money that they saved (in the format g:h:i) - ");
+    scanf("%f:%f:%f", &savedRatioAmba, &savedRatioAambika, &savedRatioAmbalika); 
 
 
-    x = totalMoney / (initialAmba + initialAmbika + initialAmbalika);
+    x = totalMoney / (initialAmba + initialAambika + initialAmbalika);
 
     initialAmba = x * initialRatioAmba;
-    initialAmbika = x * initialRatioAmbika;
+    initialAambika = x * initialRatioAambika;
     initialAmbalika = x * initialRatioAmbalika;
 
 
-    if ((spentRatioAmba/spentRatioAmba) != (savedRatioAmba/savedRatioAmbika)){
-
-        //calculation:
-
-
-
-
+    if ((spentRatioAmba/spentRatioAmba) != (savedRatioAmba/savedRatioAambika)){
+        
+        y = ((savedRatioAmba * (-initialRatioAambika)) - (savedRatioAambika * (-initialRatioAmba))) / ((spentRatioAmba * savedRatioAambika) - (spentRatioAambika * savedRatioAmba));
+        z = ((spentRatioAambika * (-initialRatioAmba)) - (spentRatioAmba * (-initialRatioAambika))) / ((spentRatioAmba * savedRatioAambika) - (spentRatioAambika * savedRatioAmba));
 
         spentAmba = y * spentRatioAmba;
-        spentAmbika = y * spentRatioAmbika;
+        spentAambika = y * spentRatioAambika;
         spentAmbalika = y * spentRatioAmbalika;
 
         savedAmba = z * savedRatioAmba;
-        savedAmbika = z * savedRatioAmbika;
+        savedAambika = z * savedRatioAambika;
         savedAmbalika = z * savedRatioAmbalika;
 
-        if (savedAmbika > savedAmba && savedAmbika > savedAmbalika){
-            printf("\n Ambika left with the maximum amount ($ %d) \n\n", (int)savedAmbika);
-        } else if (savedAmba > savedAmbalika){
-            printf("\n Amba left with the maximum amount ($ %d) \n\n", (int)savedAmba);
+        if ((savedAmba == savedAambika) && (savedAambika ==  savedAmbalika)){
+            printf("\nAll three have saved the same amount \n\n");
+        } else if ((savedAmba > savedAambika) && (savedAambika == savedAmbalika)){
+            printf("\nAmba left with the maximum amount ($%d) \n\n", (int)savedAmba);
+        } else if ((savedAambika > savedAmba) && (savedAmba == savedAmbalika)){
+            printf("\nAambika left with the maximum amount ($%d) \n\n", (int)savedAambika);
+        } else if ((savedAmbalika > savedAmba) && (savedAmba == savedAambika)){
+            printf("\nAmbalika left with the maximum amount ($%d) \n\n", (int)savedAmbalika);
+        } else if ((savedAmba > savedAambika) && (savedAmba > savedAmbalika)){
+            printf("\nAmba left with the maximum amount ($%d) \n\n", (int)savedAmba);
+        } else if ((savedAambika > savedAmba) && (savedAambika > savedAmbalika)){
+            printf("\nAambika left with the maximum amount ($%d) \n\n", (int)savedAambika);        
+        } else if ((savedAmbalika > savedAmba) && (savedAmbalika > savedAambika)){
+            printf("\nAmbalika left with the maximum amount ($%d) \n\n", (int)savedAmbalika);
         } else {
-            printf("\n Ambalika left with the maximum amount ($ %d) \n\n", (int)savedAmbalika);
+            printf("\nINVALID! \n\n");
         }
-    } else if ((spentRatioAmba/spentRatioAmbika) == (savedRatioAmba/savedRatioAmbika)){
+
+    } else if ((spentRatioAmba/spentRatioAambika) == (savedRatioAmba/savedRatioAambika)){
         
-        if ((spentRatioAmba/spentRatioAmbika) != (initialAmba/initialAmbika)){
-            printf("\n INVALID! No valid solution exists \n\n");
-        } else if ((spentRatioAmba/spentRatioAmbika) == (initialAmba/initialAmbika)){
-            printf("\n All of them have the same amount of money left \n\n");
+        if ((spentRatioAmba/spentRatioAambika) != (initialAmba/initialAambika)){
+            printf("\nINVALID! No valid solution exists \n\n");
+        } else if ((spentRatioAmba/spentRatioAambika) == (initialAmba/initialAambika)){
+            printf("\nAll of them have the same amount of money left \n\n");
         } else {
-            printf("\n INVALID! \n\n");
-        }       
+            printf("\nINVALID! \n\n");
+        }   
+
     } else {
-        printf("\n INVALID! \n\n");
+        printf("\nINVALID! \n\n");
     } 
 
     return 0;
