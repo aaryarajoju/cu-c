@@ -1,10 +1,13 @@
 //PRACTICAL 3.2 
+/*WAP to do one of the following based on the user input: 
+Check if a number is even or odd/Check if a number is positive or negative/Find the square of a number/Find the square root of a number*/
+
 #include <stdio.h>
 #include <math.h>
 
 int main (){
     
-    //initializing a variable
+    //initializing the variables
     int num;
     int input;
     int squareNum;
