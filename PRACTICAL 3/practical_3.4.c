@@ -7,19 +7,24 @@ WAP to print if any action needs to be taken if m out of n students pull the cha
 
 int main (){
     
+    //initializing the variables
     float numOfStudents, numOfStudentsPullingChain;
     float perc;
 
+    //asking the user for user inputs
     printf("\nEnter the total number of students: ");
     scanf("%d", &numOfStudents);
 
     printf("Enter the number of students pulling the chain: ");
     scanf("%d", &numOfStudentsPullingChain);
 
+    //if statement for checking the validity of the user inputs
     if (numOfStudentsPullingChain <= numOfStudents){
         
+        //calculating the percentage of students
         perc = (numOfStudentsPullingChain / numOfStudents) * 100;
 
+        //if statements to print the required results
         if (perc >= 80){
             printf("\nStrict Action Required\n\n");
         } else if (perc >= 50){
