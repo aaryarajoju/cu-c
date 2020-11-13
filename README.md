@@ -27,3 +27,22 @@
   <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%202/maximumOfFourNum.c"><b>Maximum of Four Numbers</b></a> - WAP to find the maximum among two numbers using ternary operators</li>
   <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%202/maximumOfFiveNum.c"><b>Maximum of Five Numbers</b></a> - WAP to find the maximum among two numbers using ternary operators</li>
 </ul>
+
+<br>
+
+<b><a href = "https://github.com/aaryarajoju/cu-c/tree/main/PRACTICAL%203">PRACTICAL 3</a> : LEARN HOW TO APPLY DECISION MAKING STATEMENTS SUCH AS IF-ELSE, NESTED IF-ELSE, SWITCH STATEMENTS WHILE DEVELOPING MENU DRIVEN PROGRAMS FOR USERS</b><br>
+<ul>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/gotoPassOrFail.c"><b>Pass or Fail</b></a> - WAP to find a student passed or failed, using conditional statements</li>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/gotoPrimeOrNot.c"><b>Prime or Not</b></a> - WAP to find if a number is prime or not, using goto</li>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/gotoPrimeOrNot.c"><b>Factorial</b></a> - WAP to find the factorial of a number, using goto</li>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/gotoPrimeOrNot.c"><b>Sum</b></a> - WAP to find the sum of first n numbers, using goto</li>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/gotoFibonacci.c"><b>Fibonacci</b></a> - WAP to print the fibonacci sequence till the n terms, using goto</li>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/gotoFibonacci.c"><b>Palindrome</b></a> - WAP to find a number is a palindrome or not</li>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/gotoFibonacci.c"><b>Eligibility to Vote</b></a> - WAP to find if a person has eligibility to vote or not, based on their age</li>
+</ul>
+<ol>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/practical_3.1.c"><b>3.1</b></a> : WAP to find if there is a gender partiality or equality in education<br>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/practical_3.2.c"><b>3.2</b></a> : WAP to do one of the following based on the user input: Check if a number is even or odd/Check if a number is positive or negative/Find the square of a number/Find the square root of a number<br>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/practical_3.3.c"><b>3.3</b></a> : Amba, Aambika and Ambalika have money in the ratio x:y:z. All go to market and spend money in ratio p:q:r .total money they have initially is Rs. N. After spending money in the market who has maximum amount left with?<br>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/practical_3.4.c"><b>3.4</b></a> : WAP to print if any action needs to be taken if m out of n students pull the chain in the train<br>
+</ol>
