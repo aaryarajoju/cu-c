@@ -11,11 +11,11 @@ int main(){
 
     //asking the user for inputting the length of side of the original cube
     printf("Enter the side of the original painted cube: ");
-    scanf("%d", &side);
+    scanf_s("%d", &side);
 
     //asking the user for inputting the length of side if the cube it was cut into
     printf("Enter the side of the cube, it was cut into: ");
-    scanf("%d", &newSide);
+    scanf_s("%d", &newSide);
 
     //calculatinf the number of cubes that would be generated, and printing it
     num = pow((side/newSide),3);
