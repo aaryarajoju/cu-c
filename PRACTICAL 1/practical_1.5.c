@@ -3,20 +3,20 @@
 
 #include <stdio.h>
 
-int main(){
+    int main() {
 
-    //initializing the variables
-    int workA, workB, workAB;
-    
-    //asking the user to input the number of days taken by each of the person to do the task alsone
-    printf("Enter time taken(number of days) by 1st person (A) to complete the task: ");
-    scanf("%d",&workA);
-    printf("Enter time taken(number of days) by 2nd person (B) to complete the task: ");
-    scanf("%d",&workB);
-    
-    //calculating the number of days it would take for both of them to do the work, and printing it
-    workAB = (workA * workB) / (workA + workB);
-    printf("Number of days taken if both work together: %d\n", workAB);
+        //initializing the variables
+        int workA, workB, workAB;
 
-    return 0;
-}
+        //asking the user to input the number of days taken by each of the person to do the task alone
+        printf("Enter time taken(number of days) by 1st person (A) to complete the task: ");
+        scanf("%d", &workA);
+        printf("Enter time taken(number of days) by 2nd person (B) to complete the task: ");
+        scanf("%d", &workB);
+
+        //calculating the number of days it would take for both of them to do the work, and printing it
+        workAB = (workA * workB) / (workA + workB);
+        printf("Number of days taken if both work together: %d\n", workAB);
+
+        return 0;
+    }
