@@ -1,11 +1,11 @@
 //PRACTICAL 3.3
-/*Amba, Aambika and Ambalika have money in the ratio x:y:z. All go to market and spend money in ratio p:q:r. 
+/*Amba, Aambika and Ambalika have money in the ratio x:y:z. All go to market and spend money in ratio p:q:r.
 Total money they have initially is Rs. N. After spending money in the market who has maximum amount left with?*/
 
 #include <stdio.h>
 
-int main (){
-    
+int main() {
+
     //initializing the variables (the names are self-intuitive)
     float initialRatioAmba, initialRatioAambika, initialRatioAmbalika;
     float initialAmba, initialAambika, initialAmbalika;
@@ -27,9 +27,9 @@ int main (){
 
     printf("Enter the ratio of money that they spent (in the format p:q:r) - ");
     scanf("%f:%f:%f", &spentRatioAmba, &spentRatioAambika, &spentRatioAmbalika);
-   
+
     printf("Enter the ratio of money that they saved (in the format g:h:i) - ");
-    scanf("%f:%f:%f", &savedRatioAmba, &savedRatioAambika, &savedRatioAmbalika); 
+    scanf("%f:%f:%f", &savedRatioAmba, &savedRatioAambika, &savedRatioAmbalika);
 
 
     //calculating the value of x
@@ -43,9 +43,9 @@ int main (){
 
 
     //checking if it is valid and printing the required result
-    if ((spentRatioAmba/spentRatioAmba) != (savedRatioAmba/savedRatioAambika)){
-        
-        
+    if ((spentRatioAmba / spentRatioAmba) != (savedRatioAmba / savedRatioAambika)) {
+
+
         //finding the values of y and z, by solving the equations, using cross-multiplication method
         y = ((savedRatioAmba * (-initialRatioAambika)) - (savedRatioAambika * (-initialRatioAmba))) / ((spentRatioAmba * savedRatioAambika) - (spentRatioAambika * savedRatioAmba));
         z = ((spentRatioAambika * (-initialRatioAmba)) - (spentRatioAmba * (-initialRatioAambika))) / ((spentRatioAmba * savedRatioAambika) - (spentRatioAambika * savedRatioAmba));
@@ -61,37 +61,57 @@ int main (){
         savedAmbalika = z * savedRatioAmbalika;
 
         //printing the required result
-        if ((savedAmba == savedAambika) && (savedAambika ==  savedAmbalika)){
+        if ((savedAmba == savedAambika) && (savedAambika == savedAmbalika)) {
             printf("\nAll three have saved the same amount \n\n");
-        } else if ((savedAmba > savedAambika) && (savedAambika == savedAmbalika)){
+        }
+        else if ((savedAmba > savedAambika) && (savedAambika == savedAmbalika)) {
             printf("\nAmba left with the maximum amount ($%d) \n\n", (int)savedAmba);
-        } else if ((savedAambika > savedAmba) && (savedAmba == savedAmbalika)){
+        }
+        else if ((savedAambika > savedAmba) && (savedAmba == savedAmbalika)) {
             printf("\nAambika left with the maximum amount ($%d) \n\n", (int)savedAambika);
-        } else if ((savedAmbalika > savedAmba) && (savedAmba == savedAambika)){
+        }
+        else if ((savedAmbalika > savedAmba) && (savedAmba == savedAambika)) {
             printf("\nAmbalika left with the maximum amount ($%d) \n\n", (int)savedAmbalika);
-        } else if ((savedAmba > savedAambika) && (savedAmba > savedAmbalika)){
+        }
+        else if ((savedAmba > savedAambika) && (savedAmba > savedAmbalika)) {
             printf("\nAmba left with the maximum amount ($%d) \n\n", (int)savedAmba);
-        } else if ((savedAambika > savedAmba) && (savedAambika > savedAmbalika)){
-            printf("\nAambika left with the maximum amount ($%d) \n\n", (int)savedAambika);        
-        } else if ((savedAmbalika > savedAmba) && (savedAmbalika > savedAambika)){
+        }
+        else if ((savedAambika > savedAmba) && (savedAambika > savedAmbalika)) {
+            printf("\nAambika left with the maximum amount ($%d) \n\n", (int)savedAambika);
+        }
+        else if ((savedAmbalika > savedAmba) && (savedAmbalika > savedAambika)) {
             printf("\nAmbalika left with the maximum amount ($%d) \n\n", (int)savedAmbalika);
-        } else {
+        }
+        else if ((savedAmba == savedAambika) && (savedAambika > savedAmbalika)) {
+            printf("\nBoth Amba and Ambika left with the maximum amount ($%d) \n\n", (int)savedAmba);
+        }
+        else if ((savedAambika == savedAmbalika) && (savedAmbalika > savedAmba)) {
+            printf("\nBoth Aambika and Ambalika left with the maximum amount ($%d) \n\n", (int)savedAambika);
+        }
+        else if ((savedAmbalika == savedAmba) && (savedAmba > savedAambika)) {
+            printf("\nBoth Ambalika and Ambika left with the maximum amount ($%d) \n\n", (int)savedAmbalika);
+        }
+        else {
             printf("\nINVALID! \n\n");
         }
 
-    } else if ((spentRatioAmba/spentRatioAambika) == (savedRatioAmba/savedRatioAambika)){
-        
-        if ((spentRatioAmba/spentRatioAambika) != (initialAmba/initialAambika)){
-            printf("\nINVALID! No valid solution exists \n\n");
-        } else if ((spentRatioAmba/spentRatioAambika) == (initialAmba/initialAambika)){
-            printf("\nAll of them have the same amount of money left \n\n");
-        } else {
-            printf("\nINVALID! \n\n");
-        }   
+    }
+    else if ((spentRatioAmba / spentRatioAambika) == (savedRatioAmba / savedRatioAambika)) {
 
-    } else {
+        if ((spentRatioAmba / spentRatioAambika) != (initialAmba / initialAambika)) {
+            printf("\nINVALID! No valid solution exists \n\n");
+        }
+        else if ((spentRatioAmba / spentRatioAambika) == (initialAmba / initialAambika)) {
+            printf("\nAll of them have the same amount of money left \n\n");
+        }
+        else {
+            printf("\nINVALID! \n\n");
+        }
+
+    }
+    else {
         printf("\nINVALID! \n\n");
-    } 
+    }
 
     return 0;
 }
