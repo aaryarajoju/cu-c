@@ -1,5 +1,5 @@
 //PRACTICAL 2.2
-//Write a program to input two integers from user by using single scanf. Compute and display the value for a& b, a| b, a f b.
+//Write a program to input two integers from user by using single scanf. Compute and display the value for a&b, a|b, a^b.
 
 #include <stdio.h>
 
