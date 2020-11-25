@@ -33,7 +33,6 @@
 <b><a href = "https://github.com/aaryarajoju/cu-c/tree/main/PRACTICAL%203">PRACTICAL 3</a> : LEARN HOW TO APPLY DECISION MAKING STATEMENTS SUCH AS IF-ELSE, NESTED IF-ELSE, SWITCH STATEMENTS WHILE DEVELOPING MENU DRIVEN PROGRAMS FOR USERS</b><br>
 <ul>
   <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/gotoPassOrFail.c"><b>Pass or Fail</b></a> - WAP to find a student passed or failed, using conditional statements</li>
-  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/gotoPrimeOrNot.c"><b>Prime or Not</b></a> - WAP to find if a number is prime or not, using goto</li>
   <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/gotoPrimeOrNot.c"><b>Prime or Not using goto</b></a> - WAP to find if a number is prime or not, using goto statement</li>
   <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/forPrimeOrNot.c"><b>Prime or Not using for</b></a> - WAP to find if a number is prime or not, using for loop</li>
   <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/whilePrimeOrNot.c"><b>Prime or Not using while</b></a> - WAP to find if a number is prime or not, using while loop</li>
