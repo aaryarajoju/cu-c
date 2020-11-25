@@ -4,7 +4,7 @@
 
 ## [UNIT 1](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%201)
 
-### [PRACTICAL 1](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%201/UNIT%201%20-%20PRACTICAL%201) - LEARN HOW TO PERFORM INPUT OUTPUT OPERATIONS USING C
+### [PRACTICAL 1.1 (Practical 1)](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%201/UNIT%201%20-%20PRACTICAL%201) - LEARN HOW TO PERFORM INPUT OUTPUT OPERATIONS USING C
 
   **[EXAMPLES](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%201/UNIT%201%20-%20PRACTICAL%201/EXAMPLES)**
   * 
@@ -18,7 +18,7 @@
 
 <br>
 
-### [PRACTICAL 2](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%201/UNIT%201%20-%20PRACTICAL%202) - LEARN HOW TO OPERATORS AND APPLY DECISION MAKING IN C USING IF-ELSE STATEMENTS, HOW TO USE BITWISE, CONDITIONAL, ARITHMETIC OPERATORS
+### [PRACTICAL 1.2 (Practical 2)](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%201/UNIT%201%20-%20PRACTICAL%202) - LEARN HOW TO OPERATORS AND APPLY DECISION MAKING IN C USING IF-ELSE STATEMENTS, HOW TO USE BITWISE, CONDITIONAL, ARITHMETIC OPERATORS
 
   **[EXAMPLES](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%201/UNIT%201%20-%20PRACTICAL%202/EXAMPLES)**
   * [Maximum of Two numbers](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%202/EXAMPLES/maximumOfTwoNum.c)
@@ -35,7 +35,7 @@
 
 <br>
 
-### [PRACTICAL 3](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%201/UNIT%201%20-%20PRACTICAL%203) - LEARN HOW TO APPLY DECISION MAKING STATEMENTS SUCH AS IF-ELSE, NESTED IF-ELSE, SWITCH STATEMENTS WHILE DEVELOPING MENU DRIVEN PROGRAMS FOR USERS
+### [PRACTICAL 1.3 (Practical 3)](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%201/UNIT%201%20-%20PRACTICAL%203) - LEARN HOW TO APPLY DECISION MAKING STATEMENTS SUCH AS IF-ELSE, NESTED IF-ELSE, SWITCH STATEMENTS WHILE DEVELOPING MENU DRIVEN PROGRAMS FOR USERS
 
   **[EXAMPLES](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%201/UNIT%201%20-%20PRACTICAL%203/EXAMPLES)**
   * [Eligible to Vote or not](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%203/EXAMPLES/eligibleToVoteOrNot.c) : WAP to find if a person has eligibility to vote or not, based on their age
@@ -52,4 +52,6 @@
   3. [**3.3**](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%203/EXPERIMENTS/practical_3.3.c) : Amba, Aambika and Ambalika have money in the ratio x:y:z. All go to market and spend money in ratio p:q:r .total money they have initially is Rs. N. After spending money in the market who has maximum amount left with?
   4. [**3.4**](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%203/EXPERIMENTS/practical_3.4.c) : WAP to print if any action needs to be taken if m out of n students pull the chain in the train
 
+<br>
 
+## [UNIT 2](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%202)
