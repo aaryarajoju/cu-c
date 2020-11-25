@@ -6,7 +6,8 @@
 ### [PRACTICAL 1.1 (Practical 1)](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%201/UNIT%201%20-%20PRACTICAL%201) - LEARN HOW TO PERFORM INPUT OUTPUT OPERATIONS USING C
 
   **[EXAMPLES](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%201/UNIT%201%20-%20PRACTICAL%201/EXAMPLES)**
-  * 
+  * [Hello](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%201/EXAMPLES/hello.c) : Hello-World program
+  * [Variables](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%201/EXAMPLES/variables.c) : A C program illustrating the use of variables
 
   **[EXPERIMENTS](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%201/UNIT%201%20-%20PRACTICAL%201/EXPERIMENTS)**
   1. [**1.1**](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%201/EXPERIMENTS/practical_1.1.c) : Write a program to input details of a under-graduate student
@@ -19,10 +20,8 @@
 ### [PRACTICAL 1.2 (Practical 2)](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%201/UNIT%201%20-%20PRACTICAL%202) - LEARN HOW TO OPERATORS AND APPLY DECISION MAKING IN C USING IF-ELSE STATEMENTS, HOW TO USE BITWISE, CONDITIONAL, ARITHMETIC OPERATORS
 
   **[EXAMPLES](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%201/UNIT%201%20-%20PRACTICAL%202/EXAMPLES)**
-  * [Maximum of Two numbers](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%202/EXAMPLES/maximumOfTwoNum.c)
-  * [Maximum of Three numbers](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%202/EXAMPLES/maximumOfThreeNum.c)
-  * [Maximum of Four numbers](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%202/EXAMPLES/maximumOfFourNum.c)
-  * [Maximum of Five numbers](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%202/EXAMPLES/maximumOfFiveNum.c)
+  * [Maximum of Two numbers](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%202/EXAMPLES/maximumOfTwoNum.c) : WAP to find the largest number among 2 numbers
+  * [Maximum of Three numbers](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%202/EXAMPLES/maximumOfThreeNum.c) : WAP to find the largest number among 3 numbers
 
   **[EXPERIMENTS](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%201/UNIT%201%20-%20PRACTICAL%202/EXPERIMENTS)**
   1. [**2.1**](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%202/EXPERIMENTS/practical_2.1.c) : Calculate simple interest they will pay and find who will pay the most using ternary operator?
@@ -35,6 +34,8 @@
 ### [PRACTICAL 1.3 (Practical 3)](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%201/UNIT%201%20-%20PRACTICAL%203) - LEARN HOW TO APPLY DECISION MAKING STATEMENTS SUCH AS IF-ELSE, NESTED IF-ELSE, SWITCH STATEMENTS WHILE DEVELOPING MENU DRIVEN PROGRAMS FOR USERS
 
   **[EXAMPLES](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%201/UNIT%201%20-%20PRACTICAL%203/EXAMPLES)**
+  * [Maximum of Four numbers](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%203/EXAMPLES/maximumOfFourNum.c) : WAP to find the largest number among 4 numbers
+  * [Maximum of Five numbers](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%203/EXAMPLES/maximumOfFiveNum.c) : WAP to find the largest number among 5 numbers
   * [Eligible to Vote or not](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%203/EXAMPLES/eligibleToVoteOrNot.c) : WAP to find if a person has eligibility to vote or not, based on their age
   * [Pass or Fail](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%203/EXAMPLES/gotoPassOrFail.c) : WAP to find a student passed or failed, using conditional statements
   * [Fibonacci using goto](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%203/EXAMPLES/gotoFibonacci.c) : WAP to print the fibonacci sequence till the n terms, using goto statement
