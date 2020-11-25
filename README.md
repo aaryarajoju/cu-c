@@ -34,17 +34,27 @@
 <ul>
   <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/gotoPassOrFail.c"><b>Pass or Fail</b></a> - WAP to find a student passed or failed, using conditional statements</li>
   <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/gotoPrimeOrNot.c"><b>Prime or Not</b></a> - WAP to find if a number is prime or not, using goto</li>
-  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/gotoPrimeOrNot.c"><b>Factorial using goto</b></a> - WAP to find the factorial of a number, using goto statement</li>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/gotoPrimeOrNot.c"><b>Prime or Not using goto</b></a> - WAP to find if a number is prime or not, using goto statement</li>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/forPrimeOrNot.c"><b>Prime or Not using for</b></a> - WAP to find if a number is prime or not, using for loop</li>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/whilePrimeOrNot.c"><b>Prime or Not using while</b></a> - WAP to find if a number is prime or not, using while loop</li>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/dowhilePrimeOrNot.c"><b>Prime or Not using do-while</b></a> - WAP to find if a number is prime or not, using do-while loop</li>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/gotoFactorial.c"><b>Factorial using goto</b></a> - WAP to find the factorial of a number, using goto statement</li>
   <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/forFactorial.c"><b>Factorial using for</b></a> - WAP to find the factorial of a number, using for loop</li>
   <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/whileFactorial.c"><b>Factorial using while</b></a> - WAP to find the factorial of a number, using while loop</li>
   <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/dowhileFactorial.c"><b>Factorial using do-while</b></a> - WAP to find the factorial of a number, using do-while loop</li>
-  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/gotoPrimeOrNot.c"><b>Sum</b></a> - WAP to find the sum of first n numbers, using goto</li>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/gotoSum.c"><b>Sum using goto</b></a> - WAP to find the sum of first n numbers, using goto statement</li>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/forSum.c"><b>Sum using for</b></a> - WAP to find the sum of first n numbers, using for loop</li>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/whileSum.c"><b>Sum using while</b></a> - WAP to find the sum of first n numbers, using while loop</li>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/dowhileSum.c"><b>Sum using do-wile</b></a> - WAP to find the sum of first n numbers, using do-while loop</li>
   <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/gotoFibonacci.c"><b>Fibonacci using goto</b></a> - WAP to print the fibonacci sequence till the n terms, using goto statement</li>
   <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/forFibonacci.c"><b>Fibonacci using for</b></a> - WAP to print the fibonacci sequence till the n terms, using for loop</li>
   <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/whileFibonacci.c"><b>Fibonacci using while</b></a> - WAP to print the fibonacci sequence till the n terms, using while loop</li>
   <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/dowhileFibonacci.c"><b>Fibonacci using do-while</b></a> - WAP to print the fibonacci sequence till the n terms, using do-while loop</li>
-  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/gotoFibonacci.c"><b>Palindrome</b></a> - WAP to find a number is a palindrome or not</li>
-  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/gotoFibonacci.c"><b>Eligibility to Vote</b></a> - WAP to find if a person has eligibility to vote or not, based on their age</li>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/gotoPalindrome.c"><b>Palindrome using goto</b></a> - WAP to find a number is a palindrome or not using go to statement</li>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/forPalindrome.c"><b>Palindrome using for</b></a> - WAP to find a number is a palindrome or not using for loop</li>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/whilePalindrome.c"><b>Palindrome using while</b></a> - WAP to find a number is a palindrome or not using while loop</li>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/dowhilePalindrome.c"><b>Palindrome using do-while</b></a> - WAP to find a number is a palindrome or not using do-while loop</li>
+  <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/eligibleToVoteOrNot.c"><b>Eligibility to Vote</b></a> - WAP to find if a person has eligibility to vote or not, based on their age</li>
 </ul>
 <ol>
   <li><a href = "https://github.com/aaryarajoju/cu-c/blob/main/PRACTICAL%203/practical_3.1.c"><b>3.1</b></a> : WAP to find if there is a gender partiality or equality in education<br>
