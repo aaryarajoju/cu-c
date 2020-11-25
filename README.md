@@ -16,6 +16,8 @@
   4. [1.4](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%201/EXPERIMENTS/practical_1.4.c) : How many students are there in the class?
   5. [1.5](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%201/EXPERIMENTS/practical_1.5.c) : Write a program to calculate and print the number of days to be taken to complete the work if A and B work together
 
+<br>
+
 ### [PRACTICAL 2](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%201/UNIT%201%20-%20PRACTICAL%202) - LEARN HOW TO OPERATORS AND APPLY DECISION MAKING IN C USING IF-ELSE STATEMENTS, HOW TO USE BITWISE, CONDITIONAL, ARITHMETIC OPERATORS
 
   **[EXAMPLES](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%201/UNIT%201%20-%20PRACTICAL%202/EXAMPLES)**
@@ -30,6 +32,8 @@
   3. [2.3](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%202/EXPERIMENTS/practical_2.3.c) : Write a C program to find out year in which Mr. Kavi was born
   4. [2.4](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%202/EXPERIMENTS/practical_2.4.c) : If last day of mth month of the year is Friday then find out nth day(1<=n<=31) of the same month
   5. [2.5](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%202/EXPERIMENTS/practical_2.5.c) : How many girls are after her rank? Also find whether she is among top 10 students of the class or not?
+
+<br>
 
 ### [PRACTICAL 3](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%201/UNIT%201%20-%20PRACTICAL%203) - LEARN HOW TO APPLY DECISION MAKING STATEMENTS SUCH AS IF-ELSE, NESTED IF-ELSE, SWITCH STATEMENTS WHILE DEVELOPING MENU DRIVEN PROGRAMS FOR USERS
 
