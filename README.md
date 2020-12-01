@@ -56,8 +56,8 @@
 ### [PRACTICAL 2.1 (Practical 4)](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%202/UNIT%202%20-%20PRACTICAL%201/) - 
 
   **[EXPERIMENTS](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%202/UNIT%202%20-%20PRACTICAL%201/EXPERIMENTS)**
-  1. [**4.1**](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%203/EXPERIMENTS/practical_4.1.c) : A salesman has n things to sale. The cost price of all n things is different out of which p things he is selling on m% profit and n-p things he is going to sell on x% loss. Find his net profit or loss.
-  2. [**4.2**](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%203/EXPERIMENTS/practical_4.2.c) : WAP to Find m greatest 6-digit and n smallest 7-digit numbers which are divisible by number p.
-  3. [**4.3**](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%203/EXPERIMENTS/practical_4.3.c) : WAP to find the total interest earned by bank from all n customers.
-  4. [**4.4**](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%203/EXPERIMENTS/practical_4.4.c) : You have to do data analysis task for which you will record responses from N people and then print your report accordingly.
-  5. [**4.5**](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%201/UNIT%201%20-%20PRACTICAL%203/EXPERIMENTS/practical_4.5.c) : You are given task to write numbers from m to n, during this task how many times do you write digit d?
+  1. [**4.1**](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%202/UNIT%202%20-%20PRACTICAL%201/EXPERIMENTS/practical_4.1.c) : A salesman has n things to sale. The cost price of all n things is different out of which p things he is selling on m% profit and n-p things he is going to sell on x% loss. Find his net profit or loss.
+  2. [**4.2**](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%202/UNIT%202%20-%20PRACTICAL%201/EXPERIMENTS/practical_4.2.c) : WAP to Find m greatest 6-digit and n smallest 7-digit numbers which are divisible by number p.
+  3. [**4.3**](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%202/UNIT%202%20-%20PRACTICAL%201/EXPERIMENTS/practical_4.3.c) : WAP to find the total interest earned by bank from all n customers.
+  4. [**4.4**](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%202/UNIT%202%20-%20PRACTICAL%201/EXPERIMENTS/practical_4.4.c) : You have to do data analysis task for which you will record responses from N people and then print your report accordingly.
+  5. [**4.5**](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%202/UNIT%202%20-%20PRACTICAL%201/EXPERIMENTS/practical_4.5.c) : You are given task to write numbers from m to n, during this task how many times do you write digit d?
