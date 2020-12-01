@@ -53,7 +53,7 @@
 
 ## [UNIT 2](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%202) - Dealing with Real-World Problems
 
-### [PRACTICAL 2.1 (Practical 4)](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%202/UNIT%202%20-%20PRACTICAL%201/) - 
+### [PRACTICAL 2.1 (Practical 4)](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%202/UNIT%202%20-%20PRACTICAL%201/) - LEARN HOW TO USE LOOPING CONSTRUCTS USING C
 
   **[EXPERIMENTS](https://github.com/aaryarajoju/cu-c/tree/main/UNIT%202/UNIT%202%20-%20PRACTICAL%201/EXPERIMENTS)**
   1. [**4.1**](https://github.com/aaryarajoju/cu-c/blob/main/UNIT%202/UNIT%202%20-%20PRACTICAL%201/EXPERIMENTS/practical_4.1.c) : A salesman has n things to sale. The cost price of all n things is different out of which p things he is selling on m% profit and n-p things he is going to sell on x% loss. Find his net profit or loss.
