@@ -13,10 +13,10 @@ int main (){
 
     //asking the user for user inputs
     printf("\nEnter the total number of students: ");
-    scanf("%d", &numOfStudents);
+    scanf("%f", &numOfStudents);
 
     printf("Enter the number of students pulling the chain: ");
-    scanf("%d", &numOfStudentsPullingChain);
+    scanf("%f", &numOfStudentsPullingChain);
 
     //if statement for checking the validity of the user inputs
     if (numOfStudentsPullingChain <= numOfStudents){
