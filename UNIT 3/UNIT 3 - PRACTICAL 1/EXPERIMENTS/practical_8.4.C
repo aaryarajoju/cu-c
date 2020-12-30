@@ -2,9 +2,9 @@
 
 struct sp { char name[100]; } s[100];
 
-int eligible() { printf("ELIGIBLE :)\n\n\n"); }         
+void eligible() { printf("ELIGIBLE :)\n\n\n"); }
 
-int not_eligible() { printf("NOT ELIGIBLE :(\n\n\n"); }
+void not_eligible() { printf("NOT ELIGIBLE :(\n\n\n"); }
 
 int main() {
     int n, i, j;
@@ -13,16 +13,16 @@ int main() {
     printf("\nEnter number of students- ");
     scanf("%d",&n);
 
-    double sum[n],cgpa[n];
+    double sum[n], cgpa[n];
 
-    for(i = 1; i <= n; i++) {
+    for(i = 0; i < n; i++) {
 
         printf("\n%d. Enter student's name- ", i);
-        scanf("%s",&s[i-1].name);
+        scanf("%s", s[i].name);
 
-        for(j = 1 ; j <= 5; j++) {
+        for(j = 0 ; j < 5; j++) {
             printf("\tEnter the CGPA (0-10) in Sem %d- ",j);
-            scanf("%lf", &scoreTable[i-1][j-1]);
+            scanf("%lf", &scoreTable[i][j]);
         }
     }
 
@@ -42,7 +42,7 @@ int main() {
         if(cgpa[i] >=8) {
             eligible();
         } else {
-            not_eligible();                     
+            not_eligible();
         }
     }
     return 0;
